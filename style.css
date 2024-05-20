@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#heading1{
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#heading2{
+    color: white;
+    font-size: 17px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+form{
+    display: flex;
+}
+
+.divName,.divProfession,.divAge{
+    color: white;
+    margin: 50px;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+
+input{
+    width: 300px;
+    height: 25px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
+#employees{
+    color: white;
+    font-size: 17px;
+    /* border: 1px solid white; */
+    box-sizing: border-box;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+#employees>div{
+    /* border: 1px solid white; */
+    margin-bottom: 20px;
+    width: 600px;
+    height: 40px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+#employees>div>div{
+    border: 1px solid white;
+    width: 450px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#employees>div>button{
+    width: 125px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+#addUser{
+    margin-left: 50px;
+    width: 125px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+#employees>p{
+    font-size: 16px;
+    color:gray;
+    margin-left: 10px;
+}
+
+#esMsg{
+    margin: 20px 0 0 50px;
+}
+
+#tmp{
+    color: lime;
+}
